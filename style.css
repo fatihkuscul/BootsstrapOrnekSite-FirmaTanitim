@@ -1,0 +1,569 @@
+/* Reset Ayarları*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li, ol{
+    list-style-type: none;
+}
+
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.nav-font{
+    font-family: 'Nova Flat', cursive;
+    font-size: x-large;
+}
+/* Reset Ayarları*/
+
+
+/* CSS ayarları*/
+
+.h1color1{
+    color: #e74c3c;
+}
+
+.h1color2{
+    color: #39907d;
+}
+
+.h1color3{
+    color: #2b8996;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.3em;
+    font-family: 'Nova Flat', cursive;
+}
+
+.metinLi{
+    list-style: decimal;
+    font-size: 1.3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.metinLi:hover{
+    color: #e74c3c;
+    
+}
+
+
+.kart1{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #f8cb7e;
+    transition: all 0.3s ease-in;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.kart1:hover{
+    border: none;
+    border-radius: 15px;
+    background-color: #e74c3c;
+    color: white;
+    box-shadow: 5px 5px 15px #f8cb7e;
+}
+
+.kart2{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #39907d;
+    transition: all 0.3s ease-in;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.kart2:hover{
+    border: none;
+    border-radius: 15px;
+    background-color: #39907d;
+    color: white;
+    box-shadow: 5px 5px 10px #82d1c0;
+}
+
+.kart3{
+    border-radius: 50px;
+    transition: all 0.3s ease-in;
+    margin-bottom: 20px;
+    margin-left: auto;
+    background-color: #e74c3c;
+    color: white;
+}
+
+.kart3:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #e96759;
+    box-shadow: 5px 5px 15px #f8cb7e;
+}
+
+.kareImage{
+    height: 250px;
+    width: auto;
+}
+
+
+/* carousel css */
+.card-brand{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgb(53 53 53 / 10%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    z-index: 10;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+
+}
+
+
+.carousel-inner .carousel-item .row .col-lg-4 .card{
+    position: relative;
+    z-index: 9;
+    border: none;
+    box-shadow: 0 5px 10px 1px rgb(53 53 53 / 10%);
+    border-radius: 20px;
+    height: 500px;
+    margin-left: 15px;
+    transition: all 0.3s ease-in;
+
+}
+
+.carousel-inner .carousel-item .row .col-lg-4 .card:hover .card-brand{
+    box-shadow: 5px 5px 10px #82d1c0;
+    cursor: pointer;
+}
+
+.carousel-inner .carousel-item .row .col-lg-4 .card:hover{
+    box-shadow: 5px 5px 10px #82d1c0;
+    cursor: pointer;
+    background-color: #f7fffc;
+}
+
+.customLzy{
+    width: 100%;
+    border-radius: 100px;
+}
+
+.carousel-inner .carousel-item .row .col-lg-4 .card .card-body{
+    padding: 1.25rem 1.75rem;
+    font-size: 12px;
+    text-align: center;
+}
+
+.carousel-inner .carousel-item .row .col-lg-4 .card .card-footer{
+    background: 0 0;
+    border-top: none;
+    font-family: "Lato TR Black";
+    border-radius: 0 0 20px 20px;
+    padding: 1.25rem 1.75rem;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.carousel-indicators{
+    bottom: -60px;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    right: 0;
+    left: 0;
+    z-index: 15;
+}
+
+.ol{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background: 0 0;
+    border: 1px solid rgba(53,53,53,.5);
+    margin-right: 15px;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators li.active{
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #82d1c0;
+    box-shadow: 0 0 10px 1px rgb(53 53 53 / 10%)
+}
+
+.carousel-control-prev{
+    left: -10%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-next{
+    right: -10%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev i, .carousel-control-next i{
+    padding: 15px;
+    border-radius: 30%;
+    background-color: #82d1c0;
+    color: white;
+}
+
+.carousel-control-prev i::before, .carousel-control-next i::before{
+    color: #fff;
+    font-size: 15px;
+}
+
+/* İletisim css */
+
+.contact p a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bolder;
+    font-family:sans-serif;
+    transition: all 0.3s ease-in;
+    
+}
+
+.contact p a:hover{
+    text-decoration: underline;
+    color: rgb(245, 51, 17);
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    padding-top: 8px;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* Whatsapp */
+
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400|Raleway:100,300,400,500,600,700|Open+Sans:100,300,400,500,600');
+
+
+.trwpwhatsappballon {
+font-size: 14px;
+border-radius: 12px; 
+border: 1px solid #22c15e;
+background-color: white;
+width: 250px;
+}
+
+.trwpwhatsapptitle {
+background-color: #22c15e; 
+color: white; 
+padding: 14px; 
+border-radius: 12px 12px 0px 0px;
+text-align: center;
+}
+
+.trwpwhatsappmessage {
+padding: 16px 12px;
+background-color: white;
+}
+
+.trwpwhatsappinput {
+background-color: white;
+border-radius: 0px 0px 12px 12px;
+}
+
+.trwpwhatsappinput input {
+width: 206px;
+border-radius: 10px;
+margin: 1px 1px 0px 10px;
+padding:10px;
+font-family: "Raleway", Arial, sans-serif;
+font-weight: 300;
+font-size: 13px;
+background-color: #efefef;
+border: 1px solid #d4d4d4;
+}
+
+.trwpwhatsappbutton {
+background-color: #22c15e; 
+border-radius: 20px; 
+padding: 8px 15px; 
+cursor: pointer; 
+color: #fff;
+width: 250px;
+margin-top: 10px;
+margin-bottom: 10px;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.trwpwhatsappall {
+position: fixed; 
+z-index: 9999999999999999999; 
+bottom: 40px; 
+right: 10px;
+font-family: "Raleway", Arial, sans-serif;
+font-weight: 300;
+font-size: 15px;
+}
+
+.trwpwhatsappsendbutton {
+  color: #22c15e;
+  cursor:pointer;
+}
+
+button {border: none;}
+button i {
+float: right;
+position: absolute;
+z-index: 999999999999;
+right: 23px;
+top: 11;
+bottom: 81px;
+font-size: 18px !important;
+}
+
+.kapat {
+position: absolute;
+right: 8px;
+top: 6px;
+font-size: 13px;
+border: 1px solid #fff;
+border-radius: 99px;
+padding: 2px 5px 2px 5px;
+color: white;
+font-size: 10px;
+cursor: pointer;
+}
+
+/* buton */
+
+
+.yeniBtn{
+    background-color: rgb(247, 88, 59);
+    color: white;
+    width: 10rem;
+    transition: all 0.2s ease-in;
+    border-radius: 30px;
+    font-family: 'Nova Flat', cursive;;
+}
+.yeniBtn:hover{
+    border: 1px solid rgb(247, 88, 59);
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(243, 149, 133);
+    color: rgb(247, 88, 59);
+}
+
+.yeniBtn2{
+    background-color: #25d366;
+    color: white;
+    width: 10rem;
+    transition: all 0.2s ease-in;
+    border-radius: 30px;
+    font-family: 'Nova Flat', cursive;;
+}
+.yeniBtn2:hover{
+    border: 1px solid #25d366;
+    background-color: white;
+    box-shadow: 5px 5px 10px #67c98b;
+    color: #25d366;
+}
+
+/*  footer */
+
+footer h3{
+    font-size: 2rem;
+    font-family: 'Nova Flat', cursive;
+    color: rgb(247, 88, 59);
+}
+
+footer ul{
+    font-size: 1.3rem;
+    font-family: 'Nova Flat', cursive;
+}
+
+footer ul li a{
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+footer ul li a:hover{
+    font-size: 1.3rem;
+    font-family: 'Nova Flat', cursive;
+    cursor: pointer;
+    color: rgb(247, 88, 59);
+}
+
+.adres{
+    font-size: 0.9rem;
+    font-family: inherit;
+    color: #85858c
+}
+
+.copyRight{
+    background-color: honeydew;
+    height: 50px;
+    font-size: 0.8rem;
+    color: rgb(99, 99, 99);
+}
+
+/* İletişim Formu */
+.iletisim-form{
+    width: 300px;
+    margin:auto;
+    }
+
+    .form-style-9{
+    max-width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    border: 1px solid #305A72;
+    }
+
+    .form-style-9:hover{
+    box-shadow: 1px 1px 25px #25d366;
+    border: 1px solid #25d366;
+    }
+    .form-style-9 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    }
+    .form-style-9 ul li{
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+    }
+    .form-style-9 ul li .field-style{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    border-radius: 10px;
+    transition: all 0.30s ease-in-out;
+
+     
+    }.form-style-9 ul li .field-style:focus{
+    box-shadow: 0 0 10px #B0CFE0;
+    border:1px solid #B0CFE0;
+    }
+    .form-style-9 ul li .field-split{
+    width: 49%;
+    }
+    .form-style-9 ul li .field-full{
+    width: 100%;
+    }
+    .form-style-9 ul li input.align-left{
+    float:left;
+    }
+    .form-style-9 ul li input.align-right{
+    float:right;
+    }
+    .form-style-9 ul li textarea{
+    width: 100%;
+    height: 100px;
+    }
+    .form-style-9 ul li input[type="button"], 
+    .form-style-9 ul li input[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+    }
+    .form-style-9 ul li input[type="button"]:hover, 
+    .form-style-9 ul li input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+    }
+
+.accordion-div{
+    cursor: pointer;
+}
+
+.accordion-style{
+    background: #FAFAFA;
+    padding: 30px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    border: 1px solid #39907d;
+}
+
+.sss-style{
+    background: #FAFAFA;
+    padding: 30px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    border: 1px solid #e74c3c;
+}
